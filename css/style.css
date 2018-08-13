@@ -1606,23 +1606,23 @@ body#LoginForm {
   display: none;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-body {
-  font-family: "Open Sans", Arial;
-  background: #EDEDED;
+#owl-demo .item{
+  margin: 3px;
 }
-main {
-  width: 500px;
-  margin: 10px auto;
-  padding: 10px 20px 30px;
-  background: #FFF;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
-p {
-  margin-top: 2rem;
-  font-size: 13px;
-}
+
+.mySlides .mySlides2 {
+      display:none;
+      background-color: white;
+      height: 500px;
+      width: 95%
+    }
+
 #bar-chart {
   width: 500px;
   height: 300px;
@@ -1671,20 +1671,4 @@ p {
   background: rgba(0,0,0,0.1);
   border-radius: 50%;
   box-shadow: 0 0 3px 4px rgba(0,0,0,0.1);
-}
-
-#owl-demo .item{
-  margin: 3px;
-}
-#owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.mySlides .mySlides2 {
-      display:none;
-      background-color: white;
-      height: 500px;
-      width: 95%
-    }
+}    
