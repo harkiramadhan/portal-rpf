@@ -209,3 +209,6 @@ $(function() {
      SliderModule.init({duration: 4000});
 
 });
+
+
+

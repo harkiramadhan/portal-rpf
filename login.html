@@ -3,61 +3,107 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>LOGIN PORTAL</title>
+	<title>Portal RPF</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 
-
-
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+	
 
-	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-	<link rel="stylesheet" href="vendor/animate/animate.css">
-	<link rel="stylesheet" href="vendor/css-hamburgers/hamburgers.min.css">
-	<link rel="stylesheet" href="vendor/animsition/css/animsition.min.css">
-	<link rel="stylesheet" href="vendor/select2/select2.min.css">
-	<link rel="stylesheet" href="vendor/daterangepicker/daterangepicker.css">
-	<link rel="stylesheet" href="css/util.css">
-	<link rel="stylesheet" href="css/main.css">
+	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Flexslider  -->
 	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+	<!-- Flaticons  -->
 	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="js/modernizr-2.6.2.min.js"></script>
 
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
 	</head>
-	<body id="LoginForm">		
+	<style>
+
+		input[type=text], input[type=password] {
+		    width: 100%;
+		    padding: 15px;
+		    margin: 5px 0 22px 0;
+		    display: inline-block;
+		    border: none;
+		    background: #f1f1f1;
+		}
+
+		input[type=text]:focus, input[type=password]:focus {
+		    background-color: #ddd;
+		    outline: none;
+		}
+
+		hr {
+		    border: 1px solid #f1f1f1;
+		    margin-bottom: 25px;
+		}
+
+		/* Set a style for the submit button */
+		.registerbtn {
+		    background-color: #F8CA37;
+		    color: white;
+		    padding: 16px 20px;
+		    margin: 8px 0;
+		    border: none;
+		    cursor: pointer;
+		    width: 100%;
+		    opacity: 0.9;
+		}
+
+		.registerbtn:hover {
+		    opacity: 2;
+		}
+
+		a {
+		    color: dodgerblue;
+		}
+
+		b {
+			color: white;
+		}
+
+	</style>
+	<body>
+		
 	<div class="colorlib-loader"></div>
 
 	<div id="page">
 		<nav class="colorlib-nav" role="navigation">
 			<div class="top-menu">
-				<div class="container">
 					<div class="row">
-						<div class="col-md-2 text-center">
-							<div id="colorlib-logo"><img src="images/logo.png" style="height:80%;width:80%"><a href="index.html"></a></div>
+						<div class="col-md-2">
+							<div id="colorlib-logo"><a href="index.html"><img src="images/logo.png" style="width:70%"></a></div>
 						</div>
+
 						<div class="col-md-10 text-right menu-1">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="work.html">Work</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
 								<li class="btn-cta"><a href="register.html">Register</a></li>
 							</ul>
 						</div>
@@ -66,74 +112,48 @@
 			</div>
 		</nav>
 
-<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100">
-				<div class="login100-form-title">
-					<span class="login100-form-title-1">
-						Login
-					</span>
-				</div>
 
-				<form class="login100-form validate-form">
-					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
-						<span class="label-input100">Username</span>
-						<input class="input100" type="text" name="username" placeholder="Enter username">
-						<span class="focus-input100"></span>
+	<aside id="colorlib-hero">
+		<div class="col-md-12"> 
+			<form action="/action_page.php">
+			  	<div class="container">
+				    <h1 style="color: white;">Login</h1>
+				    <p style="color: white;">Please fill in this form to Login.</p>
+				    <hr>
+
+				    <div class="form-group">
+					    <label for="NIP"><b>NIP</b></label>
+					    <input class="form-control" type="text" placeholder="Enter NIP" name="NIP" maxlength="10" required>
 					</div>
 
-					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
-						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="pass" placeholder="Enter password">
-						<span class="focus-input100"></span>
-					</div>
+					<div class="form-group">
+					    <label for="psw"><b>Password</b></label>
+					    <input class="form-control" type="password" placeholder="Enter Password" name="psw" required>
+				</div> 
 
-					<div class="flex-sb-m w-full p-b-30">
-						<div class="contact100-form-checkbox">
-							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-							<label class="label-checkbox100" for="ckb1">
-								Remember me
-							</label>
-						</div>
+			    <hr>
+			    <button type="submit" class="registerbtn">Login</button>
+			  	</div>
 
-						<div>
-							<a href="#" class="txt1">
-								Forgot Password?
-							</a>
-						</div>
-					</div>
-
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Login
-						</button>
-					</div>
-				</form>
+			<div class="container signin">
+			  <p style="color: white;">Create Account? <a href="register.html">Register</a>.</p>
 			</div>
-		</div>
-	</div>
 
-		<footer id="colorlib-footer">
-			<div class="container">
-			</div>
+			</form>
+		</div>	
+	</aside>	
+	
+	<footer id="colorlib-footer">
+		<div class="container">
 			<div class="copy">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<p>
-								
-							</p>
-						</div>
-					</div>
 				</div>
-			</div>
-		</footer>
-	</div>
-
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
-	</div>
+			</div>	
+			<div class="gototop js-top">
+			<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+		</div>
+	</footer>
+	
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -157,6 +177,11 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
+
+	<!-- Js Slider Utama -->
+		<script>
+
+		</script>
 	</body>
 </html>
 
