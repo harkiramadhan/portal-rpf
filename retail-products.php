@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SDLC</title>
+	<title>Retail Products</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -58,36 +58,36 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="index.html"><img src="images/logo.png" style="width:70%"></a></div>
+							<div id="colorlib-logo"><a href="index.php"><img src="images/logo.png" style="width:70%"></a></div>
 						</div>
 
 						<div class="col-md-10 text-right menu-1">
 							<ul>
 								<li class="has-dropdown active">
-									<a href="index.html">Home</a>
+									<a href="index.php">Home</a>
 									<ul class="dropdown" style="text-align: center;">
-										<li><a href="index.html#colorlib-hero">News Highlight</a></li>
-										<li><a href="index.html#colorlib-testimony">Kata Pengantar</a></li>
-										<li><a href="index.html#colorlib-blog">News</a></li>
-										<li><a href="index.html#colorlib-gallery">Galeri</a></li>
+										<li><a href="index.php#colorlib-hero">News Highlight</a></li>
+										<li><a href="index.php#colorlib-testimony">Kata Pengantar</a></li>
+										<li><a href="index.php#colorlib-blog">News</a></li>
+										<li><a href="index.php#colorlib-gallery">Galeri</a></li>
 									</ul>
 								</li>
 
 								<li class="has-dropdown active">
-									<a href="retail-products.html">Retail Products</a>
+									<a href="retail-products.php">Retail Products</a>
 									<ul class="dropdown" style="text-align: center;">
-										<li><a href="sdlc.html">SDLC</a></li>
-										<li><a href="risk-library.html">Risk Library</a></li>
-										<li><a href="cim.html">CIM</a></li>
-										<li><a href="reports.html">Reports</a></li>
+										<li><a href="sdlc.php">SDLC</a></li>
+										<li><a href="risk-library.php">Risk Library</a></li>
+										<li><a href="cim.php">CIM</a></li>
+										<li><a href="reports.php">Reports</a></li>
 									</ul>
 								</li>
 
 								<li class="has-dropdown active">
 									<a>Anti Fraud</a>
 									<ul class="dropdown" style="text-align: center;">
-										<li><a href="">AFS</a></li>
-										<li><a href="">AFO</a></li>
+										<li><a href=" ">AFS</a></li>
+										<li><a href=" ">AFO</a></li>
 									</ul>
 								</li>
 

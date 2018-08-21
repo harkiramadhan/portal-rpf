@@ -64,23 +64,23 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2 text-center">
-							<div id="colorlib-logo"><a href="index.html">Landing</a></div>
+							<div id="colorlib-logo"><a href="index.php">Landing</a></div>
 						</div>
 						<div class="col-md-10 text-right menu-1">
 							<ul>
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li class="has-dropdown">
-									<a href="work.html">Work</a>
+									<a href="work.php">Work</a>
 									<ul class="dropdown">
 										<li><a href="#">Limited Work</a></li>
 										<li><a href="#">Accessible Work</a></li>
 										<li><a href="#">Original Work</a></li>
 									</ul>
 								</li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li class="active"><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="services.php">Services</a></li>
+								<li><a href="blog.php">Blog</a></li>
+								<li class="active"><a href="about.php">About</a></li>
+								<li><a href="contact.php">Contact</a></li>
 								<li class="btn-cta"><a href="#">Sign Up</a></li>
 								<li class="btn-cta"><a href="#">Login</a></li>
 							</ul>
@@ -95,7 +95,7 @@
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="intro">
 							<h1>About Us</h1>
-							<p><span><a href="index.html">Home</a></span> / <span>About</span></p>
+							<p><span><a href="index.php">Home</a></span> / <span>About</span></p>
 						</div>
 					</div>
 				</div>
@@ -263,26 +263,26 @@
 					<div class="col-md-3 colorlib-widget">
 						<h4>Recent Blog</h4>
 						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-1.jpg);">
+							<a href="blog.php" class="blog-img" style="background-image: url(images/blog-1.jpg);">
 							</a>
 							<div class="desc">
-								<h2><a href="blog.html">Become a Creative</a></h2>
+								<h2><a href="blog.php">Become a Creative</a></h2>
 								<p class="admin"><span>20 March 2018</span></p>
 							</div>
 						</div>
 						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
+							<a href="blog.php" class="blog-img" style="background-image: url(images/blog-2.jpg);">
 							</a>
 							<div class="desc">
-								<h2><a href="blog.html">Become a Creative</a></h2>
+								<h2><a href="blog.php">Become a Creative</a></h2>
 								<p class="admin"><span>20 March 2018</span></p>
 							</div>
 						</div>
 						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-3.jpg);">
+							<a href="blog.php" class="blog-img" style="background-image: url(images/blog-3.jpg);">
 							</a>
 							<div class="desc">
-								<h2><a href="blog.html">Become a Creative</a></h2>
+								<h2><a href="blog.php">Become a Creative</a></h2>
 								<p class="admin"><span>20 March 2018</span></p>
 							</div>
 						</div>

@@ -99,12 +99,12 @@
 			<div class="top-menu">
 					<div class="row">
 						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="index.html"><img src="images/logo.png" style="width:70%"></a></div>
+							<div id="colorlib-logo"><a href="index.php"><img src="images/logo.png" style="width:70%"></a></div>
 						</div>
 
 						<div class="col-md-10 text-right menu-1">
 							<ul>
-								<li class="btn-cta"><a href="login.html">Login</a></li>
+								<li class="btn-cta"><a href="login.php">Login</a></li>
 							</ul>
 						</div>
 					</div>
@@ -166,7 +166,7 @@
 			  </div>
 
 			<div class="container signin">
-				<p style="color: white;">Already have an account? <a href="login.html">Login</a>.</p>
+				<p style="color: white;">Already have an account? <a href="login.php">Login</a>.</p>
 			</div>
 
 			</form>

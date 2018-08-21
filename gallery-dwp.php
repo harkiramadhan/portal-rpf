@@ -64,7 +64,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="index.html"><img src="images/logo.png" style="width:70%"></a></div>
+							<div id="colorlib-logo"><a href="index.php"><img src="images/logo.png" style="width:70%"></a></div>
 						</div>
 
 						<div class="col-md-10 text-right menu-1">
@@ -72,17 +72,17 @@
 								<li class="has-dropdown active">
 									<a>Menu</a>
 									<ul class="dropdown" style="text-align: center;">
-										<li><a href="index.html#colorlib-hero">News Highlight</a></li>
-										<li><a href="index.html#colorlib-testimony">Kata Pengantar</a></li>
-										<li><a href="index.html#colorlib-blog">News</a></li>
-										<li><a href="index.html#colorlib-gallery">Galeri</a></li>
+										<li><a href="index.php#colorlib-hero">News Highlight</a></li>
+										<li><a href="index.php#colorlib-testimony">Kata Pengantar</a></li>
+										<li><a href="index.php#colorlib-blog">News</a></li>
+										<li><a href="index.php#colorlib-gallery">Galeri</a></li>
 									</ul>
 								</li>
 								<li class="has-dropdown active">
 									<a>Module</a>
 									<ul class="dropdown" style="text-align: center;">
-										<li><a href="login.html">SDLC</a></li>
-										<li><a href="login.html">Risk Library</a></li>
+										<li><a href="login.php">SDLC</a></li>
+										<li><a href="login.php">Risk Library</a></li>
 										<li><a href="">CIM</a></li>
 										<li><a href="">Persuratan</a></li>
 										<li><a href="">AFS - Portal</a></li>
@@ -103,7 +103,7 @@
 						<div class="intro">
 							<h1>Gallery</h1>
 							<h2 style="color: white;">Deposit and Wealth Product Risk Department</h2>
-							<p><span><a href="index.html">Home</a></span> / <span>Gallery DWP</span></p>
+							<p><span><a href="index.php">Home</a></span> / <span>Gallery DWP</span></p>
 						</div>
 					</div>
 				</div>

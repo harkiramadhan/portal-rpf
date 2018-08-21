@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Portal RPF</title>
+	<title>Risk Library</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -11,7 +11,9 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
-	
+
+
+	<link href="css/bootstrap-4-navbar.css" rel="stylesheet"
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -38,58 +40,14 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/bootstrap-4-navbar.js"></script>
+
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
 	</head>
-	<style>
-
-		input[type=text], input[type=password] {
-		    width: 100%;
-		    padding: 15px;
-		    margin: 5px 0 22px 0;
-		    display: inline-block;
-		    border: none;
-		    background: #f1f1f1;
-		}
-
-		input[type=text]:focus, input[type=password]:focus {
-		    background-color: #ddd;
-		    outline: none;
-		}
-
-		hr {
-		    border: 1px solid #f1f1f1;
-		    margin-bottom: 25px;
-		}
-
-		/* Set a style for the submit button */
-		.registerbtn {
-		    background-color: #F8CA37;
-		    color: white;
-		    padding: 16px 20px;
-		    margin: 8px 0;
-		    border: none;
-		    cursor: pointer;
-		    width: 100%;
-		    opacity: 0.9;
-		}
-
-		.registerbtn:hover {
-		    opacity: 2;
-		}
-
-		a {
-		    color: dodgerblue;
-		}
-
-		b {
-			color: white;
-		}
-
-	</style>
 	<body>
 		
 	<div class="colorlib-loader"></div>
@@ -97,48 +55,53 @@
 	<div id="page">
 		<nav class="colorlib-nav" role="navigation">
 			<div class="top-menu">
+				<div class="container">
 					<div class="row">
 						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="index.html"><img src="images/logo.png" style="width:70%"></a></div>
+							<div id="colorlib-logo"><a href="index.php"><img src="images/logo.png" style="width:70%"></a></div>
 						</div>
 
 						<div class="col-md-10 text-right menu-1">
 							<ul>
-								<li class="btn-cta"><a href="index.html">Home</a></li>
+								<li class="has-dropdown active">
+									<a href="index.php">Home</a>
+									<ul class="dropdown" style="text-align: center;">
+										<li><a href="index.php#colorlib-hero">News Highlight</a></li>
+										<li><a href="index.php#colorlib-testimony">Kata Pengantar</a></li>
+										<li><a href="index.php#colorlib-blog">News</a></li>
+										<li><a href="index.php#colorlib-gallery">Galeri</a></li>
+									</ul>
+								</li>
+
+								<li class="has-dropdown active">
+									<a href="retail-products.php">Retail Products</a>
+									<ul class="dropdown" style="text-align: center;">
+										<li><a href="sdlc.php">SDLC</a></li>
+										<li><a href="risk-library.php">Risk Library</a></li>
+										<li><a href="cim.php">CIM</a></li>
+										<li><a href="reports.php">Reports</a></li>
+									</ul>
+								</li>
+
+								<li class="has-dropdown active">
+									<a>Anti Fraud</a>
+									<ul class="dropdown" style="text-align: center;">
+										<li><a href=" ">AFS</a></li>
+										<li><a href=" ">AFO</a></li>
+									</ul>
+								</li>
+
+								<li class="active"><a href="">Persuratan</a></li>
+
 							</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</nav>
+			</nav>
 
+			
 
-	<aside id="colorlib-hero">
-		<div class="col-md-12"> 
-			<form action="/action_page.php">
-			  	<div class="container">
-				    <h1 style="color: white;">Login</h1>
-				    <p style="color: white;">Please fill in this form to Login.</p>
-				    <hr>
-
-				    <div class="form-group">
-					    <label for="NIP"><b>NIP</b></label>
-					    <input class="form-control" type="text" placeholder="Enter NIP" name="NIP" maxlength="10" required>
-					</div>
-
-					<div class="form-group">
-					    <label for="psw"><b>Password</b></label>
-					    <input class="form-control" type="password" placeholder="Enter Password" name="psw" required>
-					</div> 
-
-			    <hr>
-			    <button type="submit" class="registerbtn">Login</button>
-			  	</div>
-
-			</form>
-		</div>	
-	</aside>	
-	
 	<footer id="colorlib-footer">
 		<div class="container">
 			<div class="copy">
@@ -146,11 +109,13 @@
 				</div>
 			</div>	
 
-			<h5 style="text-align: center; color: white;">&copy; Copyright Retail Product Delivery and Fraud Risk Group</h5>
+			<h5 style="text-align: center; color: white;">&copy; Copyright Retail Product Delivery and Fraud Risk Group</h5>	
 			<div class="gototop js-top">
 			<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
 		</div>
 	</footer>
+</div>	
+
 	
 	
 	<!-- jQuery -->
@@ -174,35 +139,6 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
-
-	<!-- Js Slider Utama -->
-		<script>
-	$(document).ready(function() {
-	 
-	  $("#owl-demo2").owlCarousel({
-	 		
-	 		autoplay: true,
-		    items:1,
-		    loop:true,
-	  });
-	 
-	});
-		</script>
-
-	<!-- Js Slider Foto -->
-		<script>
-	$(document).ready(function() {
-		 
-		 	$("#owl-demo").owlCarousel({
-		 
-		   	autoplay: true,
-		   	items : 2,
-		   	loop: true,
-
-		 	});
-		 });	
-		</script>
 
 	</body>
 </html>

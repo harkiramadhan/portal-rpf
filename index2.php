@@ -55,17 +55,17 @@
 			<div class="top-menu">
 					<div class="row">
 						<div class="col-md-2">
-							<div id="colorlib-logo"><a href="index.html"><img src="images/logo.png" style="width:70%"></a></div>
+							<div id="colorlib-logo"><a href="index.php"><img src="images/logo.png" style="width:70%"></a></div>
 						</div>
 
 						<div class="col-md-10 text-right menu-1">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="work.html">Work</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="index.php">Home</a></li>
+								<li><a href="work.php">Work</a></li>
+								<li><a href="services.php">Services</a></li>
+								<li><a href="blog.php">Blog</a></li>
+								<li><a href="about.php">About</a></li>
+								<li><a href="contact.php">Contact</a></li>
 								<li class="btn-cta"><a href="">Logout</a></li>
 								<li class="btn-cta"><a href="">Register</a></li>
 							</ul>
