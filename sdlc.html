@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SDLC</title>
+	<title>System Developmet Life Cycle</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -72,36 +72,12 @@
 
 						<div class="col-md-10 text-right menu-1">
 							<ul>
-								<li class="has-dropdown active">
-									<a href="index.html">Home</a>
-									<ul class="dropdown" style="text-align: center;">
-										<li><a href="index.html#colorlib-hero">News Highlight</a></li>
-										<li><a href="index.html#colorlib-testimony">Kata Pengantar</a></li>
-										<li><a href="index.html#colorlib-blog">News</a></li>
-										<li><a href="index.html#colorlib-gallery">Galeri</a></li>
-									</ul>
-								</li>
-
-								<li class="has-dropdown active">
-									<a href="retail-products.html">Retail Products</a>
-									<ul class="dropdown" style="text-align: center;">
-										<li><a href="sdlc.html">SDLC</a></li>
-										<li><a href="risk-library.html">Risk Library</a></li>
-										<li><a href="cim.html">CIM</a></li>
-										<li><a href="reports.html">Reports</a></li>
-									</ul>
-								</li>
-
-								<li class="has-dropdown active">
-									<a>Anti Fraud</a>
-									<ul class="dropdown" style="text-align: center;">
-										<li><a href="">AFS</a></li>
-										<li><a href="">AFO</a></li>
-									</ul>
-								</li>
-
-								<li class="active"><a href="">Persuratan</a></li>
-
+								<li><a href="index2.html">Home</a></li>
+								<li style="color: #F8CA37">SDLC</li>
+								<li><a href="risk-library.html">Risk Library</a></li>
+								<li><a href="cim.html">CIM</a></li>
+								<li><a href="reports.html">Reports</a></li>
+								<li class="btn btn-cta"><a href="">Logout</a></li>
 							</ul>
 							</div>
 						</div>
@@ -116,7 +92,7 @@
 							<div class="intro">
 								<h1>SDLC</h1>
 								<h2 style="color: white;">Retail Products</h2>
-								<p><span><a href="index.html" style="color: #F8CA37 ">Home</a></span> / <span style="color: gray;">SDLC - Retail Products</span></p>
+								<p style="color: gray;"><span><a href="index.html" style="color: #F8CA37 ">Home</a></span>  /  <span style="color: gray;">SDLC - Retail Products</span></p>
 							</div>
 						</div>
 					</div>
@@ -124,12 +100,13 @@
 			</div>
 
 			<div class="colorlib-blog">
-				<div class="overlay">
+				<div class="overlay animate-box">
 					<div class="container">
 						<div class="col-md-12">
 							<table class="table table-sm table-hover table-bordered">
 
 						<div class="col-md-12 text-right" style="padding-bottom: 10px;">
+						<p title="Add Project">
 						<button type="button" class="btn" data-toggle="modal" data-target="#myModal" style="background-color: #F8CA37; color: white;">Add Project</button>
 						</div>
 
@@ -190,41 +167,25 @@
 				        <th style="text-align: center;">Project Owner</th>
 				        <th style="text-align: center;">Risk Dept</th>
 				        <th style="text-align: center;">Status</th>
+				        <th style="text-align: center;">Details</th>
 				        <th style="text-align: center;">Edit</th>
 				        <th style="text-align: center;">Delete</th>
 				      </tr>
 				    </thead>
 
-				    <tbody id="myTable">
+				    <tbody id="myTable" style="text-align: center; align-content: center;">
 				    <tr>
-				    	<!-- Date In -->
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
+				    	<td></td><!-- Date In -->
+				    	<td></td><!-- Project Name -->
+				    	<td></td><!-- Project Owner -->
+				    	<td></td><!-- Risk Dept -->
+				    	<td></td><!-- Status -->
 				    	<td>
-				    		<p title="Edit">
-				    		<button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" >
-				    		<span class="glyphicon glyphicon-pencil">
+				    		<p title="Details">
+				    		<button class="btn btn-primary btn-xs" data-title="Details" data-toggle="modal" data-target="#details" >
+				    		<span class="glyphicon glyphicon-eye-open">
 				    		</span></button></p>
 				    	</td>
-
-		    			<td>
-		    				<p title="Delete">
-		    				<button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" >
-		    				<span class="glyphicon glyphicon-trash"></span></button></p>
-		    			</td>
-
-				    </tr>
-
-				    <tr>
-				    	<!-- Project Name -->
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
 				    	<td>
 				    		<p title="Edit">
 				    		<button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" >
@@ -240,12 +201,43 @@
 				    </tr>
 
 				    <tr>
-				    	<!-- Project Owner -->
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
+				    	<td></td><!-- Date In -->
+				    	<td></td><!-- Project Name -->
+				    	<td></td><!-- Project Owner -->
+				    	<td></td><!-- Risk Dept -->
+				    	<td></td><!-- Status -->
+				    	<td>
+				    		<p title="Details">
+				    		<button class="btn btn-primary btn-xs" data-title="Details" data-toggle="modal" data-target="#details" >
+				    		<span class="glyphicon glyphicon-eye-open">
+				    		</span></button></p>
+				    	</td>
+				    	<td><!-- Edit Button -->
+				    		<p title="Edit">
+				    		<button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" >
+				    		<span class="glyphicon glyphicon-pencil">
+				    		</span></button></p>
+				    	</td>
+
+		    			<td><!-- Delete Button -->
+		    				<p title="Delete">
+		    				<button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" >
+		    				<span class="glyphicon glyphicon-trash"></span></button></p>
+		    			</td>
+				    </tr>
+
+				    <tr>
+				    	<td></td><!-- Date In -->
+				    	<td></td><!-- Project Name -->
+				    	<td></td><!-- Project Owner -->
+				    	<td></td><!-- Risk Dept -->
+				    	<td></td><!-- Status -->
+				    	<td>
+				    		<p title="Details">
+				    		<button class="btn btn-primary btn-xs" data-title="Details" data-toggle="modal" data-target="#details" >
+				    		<span class="glyphicon glyphicon-eye-open">
+				    		</span></button></p>
+				    	</td>
 				    	<td>
 				    		<p title="Edit">
 				    		<button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" >
@@ -261,12 +253,17 @@
 				    </tr>
 
 				    <tr>
-				    	<!-- Risk Dept -->
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
+				    	<td></td><!-- Date In -->
+				    	<td></td><!-- Project Name -->
+				    	<td></td><!-- Project Owner -->
+				    	<td></td><!-- Risk Dept -->
+				    	<td></td><!-- Status -->
+				    	<td>
+				    		<p title="Details">
+				    		<button class="btn btn-primary btn-xs" data-title="Details" data-toggle="modal" data-target="#details" >
+				    		<span class="glyphicon glyphicon-eye-open">
+				    		</span></button></p>
+				    	</td>
 				    	<td>
 				    		<p title="Edit">
 				    		<button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" >
@@ -282,12 +279,18 @@
 				    </tr>
 
 				    <tr>
-				    	<!-- Status -->
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
-				    	<td></td>
+				    	
+				    	<td></td><!-- Date In -->
+				    	<td></td><!-- Project Name -->
+				    	<td></td><!-- Project Owner -->
+				    	<td></td><!-- Risk Dept -->
+				    	<td></td><!-- Status -->
+				    	<td>
+				    		<p title="Details">
+				    		<button class="btn btn-primary btn-xs" data-title="Details" data-toggle="modal" data-target="#details" >
+				    		<span class="glyphicon glyphicon-eye-open">
+				    		</span></button></p>
+				    	</td>
 				    	<td>
 				    		<p title="Edit">
 				    		<button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" >
@@ -313,7 +316,6 @@
 					</div>
 				</div>
 			</div>
-			
 
 	<footer id="colorlib-footer">
 		<div class="container">
